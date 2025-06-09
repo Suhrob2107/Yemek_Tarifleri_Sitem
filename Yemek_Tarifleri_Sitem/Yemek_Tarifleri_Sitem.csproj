@@ -68,9 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AnaSayfa.aspx" />
+    <Content Include="Banner Foto\banner.jpg" />
+    <Content Include="Banner Foto\banner1.jpg" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="Iletisim.aspx" />
+    <Content Include="KategoriDetay.aspx" />
+    <Content Include="Kullanici.css" />
     <Content Include="resimler\menedjer.jpg" />
     <Content Include="StyleSheet1.css" />
     <Content Include="TarifOner.aspx" />
@@ -106,6 +110,13 @@
     <Compile Include="Iletisim.aspx.designer.cs">
       <DependentUpon>Iletisim.aspx</DependentUpon>
     </Compile>
+    <Compile Include="KategoriDetay.aspx.cs">
+      <DependentUpon>KategoriDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriDetay.aspx.designer.cs">
+      <DependentUpon>KategoriDetay.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Kullanici.Master.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -132,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Kullanici.Master" />
+    <Content Include="Banner Foto\footer.avif" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

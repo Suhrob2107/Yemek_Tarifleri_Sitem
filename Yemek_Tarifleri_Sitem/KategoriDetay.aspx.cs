@@ -8,12 +8,15 @@ using System.Web.UI.WebControls;
 
 namespace Yemek_Tarifleri_Sitem
 {
-    public partial class Hakkimizda : System.Web.UI.Page
+    public partial class KategoriDetay : System.Web.UI.Page
     {
-        sqlsinif bgl = new sqlsinif();
+        sqlsinif snf = new sqlsinif();
+        string kategoryid = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("Select * from Tbl_Hakkimizda", bgl.baglanti());
+            kategoryid = Request.QueryString["Kategoryid"];
+            SqlCommand komut = new SqlCommand("select * from tbl_yemekler where kategoryid=@p1", snf.baglanti());
+            komut.Parameters.AddWithValue("@p1",kategoryid);
             SqlDataReader dr = komut.ExecuteReader();
             DataList2.DataSource = dr;
             DataList2.DataBind();

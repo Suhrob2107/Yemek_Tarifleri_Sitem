@@ -5,7 +5,7 @@
 <html>
 <head runat="server">
     <title></title>
-    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link href="Kullanici.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -27,6 +27,8 @@
 <body>
     <form id="form1" runat="server">
         <div style="height: 150px; width: 700px;margin-left:300px; background-color: #ce7171;">
+            
+            <asp:Image ID="Image1" runat="server" Height="148px" ImageUrl="~/Banner Foto/banner1.jpg" Width="697px" />
             
         </div>
         <div style="margin-left:300px;width:700px;height:20px;"></div>
@@ -51,7 +53,9 @@
                  <asp:DataList ID="DataList1" runat="server" Width="197px">
                      <ItemTemplate>
                          <div style="border: thin ridge #CCCCCC">
-                             <asp:Label ID="Label1" runat="server" Text='<%# Eval("KategoryAd") %>'></asp:Label>
+                             <a href="KategoriDetay.aspx?Kategoryid=<%# Eval("Kategoryid") %>">
+                                 <asp:Label ID="Label1" runat="server" Text='<%# Eval("KategoryAd") %>'></asp:Label></a>
+                             
                              &nbsp;&nbsp; (<asp:Label ID="Label2" runat="server" Text='<%# Eval("KategoryAdet") %>'></asp:Label>
                              )</div>
                      </ItemTemplate>

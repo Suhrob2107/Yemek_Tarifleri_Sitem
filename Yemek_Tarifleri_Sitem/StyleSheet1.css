@@ -8,3 +8,10 @@ a:hover {
     font-size: 18px;
     color: yellow;
 }
+
+.tb5 {
+    border: 2px solid #456879;
+    border-radius: 20px;
+    height:22px;
+    width:230px;
+}

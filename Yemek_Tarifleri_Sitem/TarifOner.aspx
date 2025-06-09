@@ -19,19 +19,19 @@
     <tr>
         <td class="auto-style4">Tarif Ad:</td>
         <td>
-            <asp:TextBox ID="TxtTarifAd" runat="server" Width="250px"></asp:TextBox>
+            <asp:TextBox ID="TxtTarifAd" runat="server" Width="250px" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td class="auto-style4">Malzemeler:</td>
         <td>
-            <asp:TextBox ID="TxtMalzemeler" runat="server" Height="80px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+            <asp:TextBox ID="TxtMalzemeler" runat="server" Height="80px" TextMode="MultiLine" Width="250px" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td class="auto-style4">Yapilis</td>
         <td>
-            <asp:TextBox ID="TxtYapilis" runat="server" Height="150px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+            <asp:TextBox ID="TxtYapilis" runat="server" Height="150px" TextMode="MultiLine" Width="250px" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
@@ -43,13 +43,13 @@
     <tr>
         <td class="auto-style4">Tarif Oneren:</td>
         <td>
-            <asp:TextBox ID="TxtTarifOneren" runat="server" Width="250px"></asp:TextBox>
+            <asp:TextBox ID="TxtTarifOneren" runat="server" Width="250px" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td class="auto-style4">Mail Address:</td>
         <td>
-            <asp:TextBox ID="TxtMailAdresi" runat="server" TextMode="Email" Width="250px"></asp:TextBox>
+            <asp:TextBox ID="TxtMailAdresi" runat="server" TextMode="Email" Width="250px" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
