@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Yemek_Tarifleri_Sitem.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Kullanici.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="height: 150px; width: 700px;margin-left:300px; background-color: #ce7171;">
+            
+            <asp:Image ID="Image1" runat="server" Height="148px" ImageUrl="~/Banner Foto/banner-772x250.jpg" Width="697px" />
+            
+        </div>
+        <div style="margin-left:300px;width:700px;height:20px;"></div>
+        <div style="margin-left:300px;width:700px;height:300px;">
+
+             <div style="width:200px;height:auto;float:left; background-color: #4f76f2;">
+                 <table class="auto-style1">
+                     <tr>
+                         <td>Menulaer</td>
+                     </tr>
+                     <tr>
+                         <td>&nbsp;</td>
+                     </tr>
+                     <tr>                         
+                         <td style="border: thin solid #FFFFFF"><a href="Kategoriler.aspx">Kategoriler</a></td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF">Yemekler</td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF">Yorumlar</td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF">Mesajlar</td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF">GununEmegi</td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF">Oneriler</td>
+                     </tr>
+                     <tr>
+                         <td style="border: thin solid #FFFFFF">Hakkimizda</td>
+                     </tr>
+                 </table>
+             </div>
+             <div style="width:450px;float:left; height:auto;background-color: #4f76f2;margin-left:50px;">
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                     <p>
+                         &nbsp;</p>
+                 </asp:ContentPlaceHolder>
+             </div>
+        </div>
+    </form>
+</body>
+</html>
