@@ -37,19 +37,19 @@
                          <td style="border: thin solid #FFFFFF"><a href="Kategoriler.aspx">Kategoriler</a></td>
                      </tr>
                      <tr>
-                         <td style="border: thin solid #FFFFFF">Yemekler</td>
+                         <td style="border: thin solid #FFFFFF"><a href="Yemekler.aspx">Yemekler</a></td>
                      </tr>
                      <tr>
-                         <td style="border: thin solid #FFFFFF">Yorumlar</td>
+                         <td style="border: thin solid #FFFFFF"><a href="Yorumlar.aspx">Yorumlar</a></td>
                      </tr>
                      <tr>
-                         <td style="border: thin solid #FFFFFF">Mesajlar</td>
+                         <td style="border: thin solid #FFFFFF"><a href="Mesajlar.aspx">Mesajlar</a></td>
                      </tr>
                      <tr>
-                         <td style="border: thin solid #FFFFFF">GununEmegi</td>
+                         <td style="border: thin solid #FFFFFF"><a href="GununEmegiAdmin.aspx">GununEmegi</a></td>
                      </tr>
                      <tr>
-                         <td style="border: thin solid #FFFFFF">Oneriler</td>
+                         <td style="border: thin solid #FFFFFF"><a href="Tarifler.aspx">Tarifler</a></td>
                      </tr>
                      <tr>
                          <td style="border: thin solid #FFFFFF">Hakkimizda</td>
