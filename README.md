@@ -29,10 +29,7 @@ Bu proje, 🎓 **Murat Yücedağ** hocamızın hazırladığı **"50 Derste ASP.
 
 ## 🧩 Uygulama Görselleri
 
-> 📸 Aşağıda projeye ait bazı ekran görüntüleri yer almaktadır:
-
 ![Ana Sayfa](images/anasayfa.png)
 ![Admin Panel](images/adminpanel.png)
 ![Tarif Detay](images/tarifdetay.png)
 
-> `images/` klasörü içine görselleri ekleyip yukarıdaki gibi gösterebilirsin.
