@@ -31,7 +31,7 @@ Bu proje, 🎓 **Murat Yücedağ** hocamızın hazırladığı **"50 Derste ASP.
 
 > 📸 Aşağıda projeye ait bazı ekran görüntüleri yer almaktadır:
 
-![Ana Sayfa](images/anasayfa1.png)
+![Ana Sayfa](images/anasayfa.png)
 ![Admin Panel](images/adminpanel.png)
 ![Tarif Detay](images/tarifdetay.png)
 
