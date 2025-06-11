@@ -6,6 +6,10 @@
             font-weight: bold;
             font-size: large;
         }
+        .auto-style3 {
+            font-size: large;
+            text-align: right;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -37,6 +41,12 @@
             <td>
                 <asp:DropDownList ID="DropDownList1" runat="server" Width="200px">
                 </asp:DropDownList>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style3"><strong>Yemek Resim</strong></td>
+            <td>
+                <asp:FileUpload ID="FileUpload1" runat="server" />
             </td>
         </tr>
         <tr>

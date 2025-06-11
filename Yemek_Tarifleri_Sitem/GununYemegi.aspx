@@ -29,7 +29,7 @@
                                 <strong>Tarif: </strong>&nbsp;
                                 <asp:Label ID="Label9" runat="server" Text='<%# Eval("YemekTarif") %>'></asp:Label>
                                 <br />
-                                <asp:Image ID="Image2" runat="server" Height="166px" ImageUrl="~/resimler/menedjer.jpg" style="text-align: center" Width="413px" />
+                                <asp:Image ID="Image2" runat="server" Height="166px" ImageUrl='<%# Eval("YemekResim") %>' style="text-align: center" Width="413px" />
                                 <br />
                                 <br />
                                 <table class="auto-style1">

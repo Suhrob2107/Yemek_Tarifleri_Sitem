@@ -33,6 +33,10 @@
             font-size: large;
             text-align: right;
         }
+        .auto-style9 {
+            text-align: right;
+            font-size: large;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -78,9 +82,16 @@
             </td>
         </tr>
         <tr>
+            <td class="auto-style9"><strong>Kategori:</strong></td>
+            <td style="margin-left: 40px">
+                <asp:DropDownList ID="DropDownList1" runat="server" Width="200px">
+                </asp:DropDownList>
+            </td>
+        </tr>
+        <tr>
             <td>&nbsp;</td>
             <td style="margin-left: 40px">
-                <asp:Button ID="ButtonOnay" runat="server" style="font-weight: 700; font-size: large" Text="Onayla" />
+                <asp:Button ID="ButtonOnay" runat="server" style="font-weight: 700; font-size: large" Text="Onayla" OnClick="ButtonOnay_Click" />
             </td>
         </tr>
     </table>
